@@ -91,7 +91,7 @@ const userInputs = () =>
             type: 'input',
             name: 'questions',
             message: "Questions Section: any comments you would like your users to know? ",
-            default: "There are no comments. (You should say soemthing anyways)"
+            default: "There are no comments. (You should say something anyways)"
         }
     ]);
 
@@ -126,7 +126,7 @@ ${answers.description}
 ​
 ## License
 ​
-This project is licensed under the ${answers.license}.
+📖 This project is licensed under the ${answers.license}.
 
 ## Contributing
 ​
@@ -138,9 +138,9 @@ This project is licensed under the ${answers.license}.
 
 ## Questions
 ​
-✋ ${answers.questions}
+❓ ${answers.questions}
 
-✉️ Email me with any questions: ${answers.email}
+📧 Email me with any questions: ${answers.email}
 you can find more of my work at [${answers.github}](${answers.githubLink}).
 
 
