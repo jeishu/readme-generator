@@ -9,6 +9,8 @@ Demo Gif
 
 ![demo](./assets/demo.gif)
 
+![demo](./assets/demo2.gif)
+
 Demo Picture
 
 ![demo](./assets/demopic.png)
