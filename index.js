@@ -28,26 +28,49 @@ const userInputs = () =>
         {
             type: 'input',
             name: 'projectName',
-            message: "What's your project name?",
+            message: "Title: what's your project name?",
+            validate: function (input) {
+                if (input.length < 1) {
+                    return console.log("Please provide a name for your project.");
+                }
+                return true;
+            }
         },
         {
             type: 'input',
             name: 'description',
-            message: "A short description of your project:",
+            message: "Description Section: provide a short description of your project.",
+            validate: function (input) {
+                if (input.length < 1) {
+                    return console.log("Please provide a description for your project.");
+                }
+                return true;
+            }
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: "Installation Section: describe how to install your application. ",
+            validate: function (input) {
+                if (input.length < 1) {
+                    return console.log("Please describe how to use your application.");
+                }
+                return true;
+            }
         },
         {
             type: 'input',
             name: 'usage',
-            message: "A short description of how your application is used: ",
+            message: "Usage Section: describe how to use your application. "
         },
         {
             type: "list",
             name: "license",
-            message: "Chose the appropriate license for this project: ",
+            message: "License Section: chose the appropriate license for this project. ",
             choices: [
                 "Apache",
                 "Academic",
-                "GNU",
+                "GNU General",
                 "ISC",
                 "MIT"
             ]
@@ -55,19 +78,19 @@ const userInputs = () =>
         {
             type: 'input',
             name: 'contributors',
-            message: "List any contributors if any: ",
+            message: "Contributors Section: list any contributors if any. ",
             default: "There are no other contributors."
         },
         {
             type: 'input',
-            name: 'test',
-            message: "List any tests done if any: ",
+            name: 'tests',
+            message: "Test Section: list any tests done if any. ",
             default: "There were no test run for this application. (shame on you)"
         },
         {
             type: 'input',
             name: 'questions',
-            message: "Any comments you would like your users to know? ",
+            message: "Questions Section: any comments you would like your users to know? ",
             default: "There are no comments. (You should say soemthing anyways)"
         }
     ]);
@@ -81,7 +104,6 @@ const generateREADME = (answers) =>
 ${answers.description}
 ​
 ## Table of Contents 
-​
 * [Installation](#installation)
 ​
 * [Usage](#usage)
@@ -125,6 +147,6 @@ you can find more of my work at [${answers.github}](${answers.githubLink}).
 _🔥🔥🔥 This README was generated with ❤️ by [ReadMe Generator](https://github.com/jeishu/readme-generator) 🔥🔥🔥_`;
 
 userInputs()
-    .then((answers) => writeFileAsync("README.md", generateREADME(answers)))
+    .then((answers) => writeFileAsync("DemoREADME.md", generateREADME(answers)))
     .then(() => console.log("Your README file has been created."))
     .catch((err) => console.error(err));

@@ -1,12 +1,11 @@
-# Readme stuff
-![badge](https://img.shields.io/badge/license-MIT License-brightgreen)
+# project
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 ​
 ## Description
 ​
-yes
+Yes.
 ​
 ## Table of Contents 
-​
 * [Installation](#installation)
 ​
 * [Usage](#usage)
@@ -21,30 +20,30 @@ yes
 ​
 ## Installation
 ​
-💾 undefined
+💾 No
 
 ## Usage
 ​
-💻 no
+💻 Maybe
 ​
 ## License
 ​
-This project is licensed under the MIT License.
+This project is licensed under the MIT.
 
 ## Contributing
 ​
-👪 no
+👪 nope
 ​
 ## Tests
 ​
-✏️ undefined
+✏️ of course
 
 ## Questions
 ​
-✋ no
+✋ yeah
 
-✉️ Email me with any questions: jeremyzhu
-you can find more of my work at [Jeishu](yes).
+✉️ Email me with any questions: jeishu
+you can find more of my work at [jeishu](jeishu).
 
 
 _🔥🔥🔥 This README was generated with ❤️ by [ReadMe Generator](https://github.com/jeishu/readme-generator) 🔥🔥🔥_
