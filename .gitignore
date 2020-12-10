@@ -108,3 +108,5 @@ yarn-lock.json
 
 # Ignores MAC OS
 .DS_Store/
+
+.gitignore

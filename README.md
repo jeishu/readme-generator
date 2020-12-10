@@ -1,10 +1,9 @@
-
-# Readme Generator
-![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
+# ReadMe Generator
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 ​
 ## Description
 ​
-This application will create a good README file for you.
+This application is intended to help user generator a GOOD README without the hassle of figuring the syntax of a markdown file.
 ​
 ## Table of Contents 
 ​
@@ -22,34 +21,32 @@ This application will create a good README file for you.
 ​
 ## Installation
 ​
-To install necessary dependencies, run the following command:
-​
-
-npm i
+💾 undefined
 
 ​
 ## Usage
 ​
-Nothing free to use; have fun :)
+💻 Clone the github repo, make sure you have node.js installed, run node index.js on your terminal with the correct relative path, then fill in the blanks!
 ​
 ## License
 ​
-This project is licensed under the APACHE 2.0 license.
+This project is licensed under the MIT.
 
 ## Contributing
 ​
-N/A
+👪 I am the sole author of this project.
 ​
 ## Tests
 ​
-To run tests, run the following command:
-​
-
-npm test
+✏️ undefined
 
 ​
 ## Questions
 ​
-If you have any questions about  the repo, open an issue or contact me directly at calvincarter@yahoo.com. You can find more of my work at [jeishu](jeishu.io).
-        ​
-        
+✋ undefined
+
+✉️ Email me with any questions: jeremy.zhu@utexas.edu
+you can find more of my work at [Jeishu](jeishu.github.io).
+
+
+_🔥🔥🔥 This README was generated with ❤️ by [ReadMe Generator](https://github.com/jeishu/readme-generator) 🔥🔥🔥_
