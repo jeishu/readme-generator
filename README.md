@@ -18,7 +18,7 @@ Demo Picture
 ![demo](./assets/demopic.png)
 ​
 ## Table of Contents 
-* [Links](#link)
+* [Links](#links)
 
 * [Installation](#installation)
 ​
